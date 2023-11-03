@@ -39,7 +39,7 @@ namespace BowlerScorer
 
             }
         }
-        // Unique method to create frame 10 as it is the only frame that can allow 3 rolls
+        // Unique method to create frame 10 as it is the only frame that may allow 3 rolls
         public void frameTen()
         {
             int thirdThrow = 0;

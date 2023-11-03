@@ -3,7 +3,7 @@
 
     class BowlingGame
     {
-
+        
         public void StartGame()
         {
             // Initializes a list where an instance of each frame will be stored
