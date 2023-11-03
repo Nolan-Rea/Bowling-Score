@@ -14,7 +14,7 @@ class Frame
         public bool isStrike;
         public bool isSpare;
 
-        //Method used for frames 1-8 to populate values for each frame including the value for each throw, and booleans to flag strikes and spares
+        //Method used for frames 1-9 to populate values for each frame including the value for each throw, and booleans to flag strikes and spares
         public void FillFrame()
         {
 
@@ -64,7 +64,7 @@ class Frame
             }
             frameScore = thirdThrow + secondThrow + firstThrow;
         }
-        //Validation to ensure the a roll is a valid number between 1 and 10 inclusively
+        //Validation to ensure a roll is a valid number between 1 and 10 inclusively
         public int ValidateFirstThrow()
         {
          while(!int.TryParse(Console.ReadLine(), out roll) || roll > 10 || roll < 0)
