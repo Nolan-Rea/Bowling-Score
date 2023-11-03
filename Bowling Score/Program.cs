@@ -10,8 +10,8 @@ namespace BowlerScorer
         static void Main(string[] args)
         {
 
-           BowlingGame game = new BowlingGame();
-            game.startGame();
+           BowlingGame game = new();
+            game.StartGame();
 
         }
 

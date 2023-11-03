@@ -4,7 +4,7 @@
     class BowlingGame
     {
 
-        public void startGame()
+        public void StartGame()
         {
             // Initializes a list where an instance of each frame will be stored
             List<Frame> frames = new List<Frame>();
@@ -81,7 +81,7 @@
 
         }
 
-        public void BowlingPicture()
+        public static void BowlingPicture()
         {
             Console.WriteLine("");
             Console.WriteLine("          |\"\"\"\"\"| ");
